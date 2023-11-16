@@ -1,3 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    height: 100px;
+    width: 100px
+}
+
+
+
+.top-nav-list ul {
+    list-style-type: none;
+}
+
+/* The CSS rule `.top-nav a` is targeting the anchor elements (`<a>`) that are descendants of elements
+with the class `top-nav`. It is setting the `text-decoration` property to `none`, which means that
+the anchor elements will not have any underlines or other decorations applied to them. */
+.top-nav a {
+    text-decoration: none;
+}
+
+.top-nav-list li {
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+    
+}
+
+.list-hover:hover {
+    background-color: #4b2e83;
+    /* color: #D0B787; */
+       
+}
+
+.list-hover a:hover {
+    color: #D0B787;
+}
+
+.protrait {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+
+/* .mascot {
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+} */
+
+
 .footer {
     position: absolute;
     bottom: 0;
