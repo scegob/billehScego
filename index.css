@@ -54,6 +54,11 @@ the anchor elements will not have any underlines or other decorations applied to
     height: 10em;
 }
 
+.blog-image {
+    height: 112px;
+    width: 112px;
+}
+
 /* .mascot {
     border-radius: 50%;
     width: 20em;
