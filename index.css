@@ -71,10 +71,10 @@ the anchor elements will not have any underlines or other decorations applied to
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.7rem 2rem;
+    padding: 0.7rem 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     text-decoration: none;
     color: #fff;
