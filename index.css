@@ -28,6 +28,7 @@ with the class `top-nav`. It is setting the `text-decoration` property to `none`
 the anchor elements will not have any underlines or other decorations applied to them. */
 .top-nav a {
     text-decoration: none;
+    color: #D0B787;
 }
 
 .top-nav-list li {
@@ -44,9 +45,6 @@ the anchor elements will not have any underlines or other decorations applied to
        
 }
 
-.list-hover a:hover {
-    color: #D0B787;
-}
 
 .protrait {
     border-radius: 50%;
@@ -87,7 +85,22 @@ the anchor elements will not have any underlines or other decorations applied to
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
 }
 
+/* The CSS rule `.website-image` is targeting an element with the class `website-image`. It is setting
+the maximum width of the element to 70% of its parent container, allowing it to scale down if
+necessary. The `height` property is set to `auto`, which means the height will adjust proportionally
+based on the width. The `display` property is set to `block`, which means the element will be
+displayed as a block-level element, taking up the full width available. The `margin` property is set
+to `0 auto`, which centers the element horizontally within its parent container. */
+.website-image {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
+.text-center {
+    text-align: center;
+}
 
 /* .mascot {
     border-radius: 50%;
