@@ -102,6 +102,20 @@ to `0 auto`, which centers the element horizontally within its parent container.
     text-align: center;
 }
 
+.contacts {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.contacts li {
+    display: inline;
+    margin: 0px;
+    padding: 10px;
+    align-items: center;
+}
+
 /* .mascot {
     border-radius: 50%;
     width: 20em;
