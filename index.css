@@ -116,6 +116,10 @@ to `0 auto`, which centers the element horizontally within its parent container.
     align-items: center;
 }
 
+.footer p {
+    text-align: center;
+}
+
 /* .mascot {
     border-radius: 50%;
     width: 20em;
