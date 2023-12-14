@@ -10,8 +10,11 @@ ul {
     display: flex;
     align-items: center;
     overflow: hidden;
+    background-color: #3D30A2;
+    height: 196px;
 }
 
+.testimg {border-bottom:  2px white solid;}
 .logo {
     height: 200px;
     width: 200px
@@ -114,6 +117,16 @@ to `0 auto`, which centers the element horizontally within its parent container.
     margin: 0px;
     padding: 10px;
     align-items: center;
+}
+
+.footer {
+    background-color: #3D30A2;
+    color: white;
+    border: 0px;
+}
+
+.footer a {
+    color: white;
 }
 
 .footer p {
